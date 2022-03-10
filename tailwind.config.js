@@ -2,13 +2,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      body: ['"Open Sans"'],
+      Poppins: ["Poppins"],
     },
-    extend: {
-      colors: {
-        "light-grayish-orange": "#ece6d9",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
